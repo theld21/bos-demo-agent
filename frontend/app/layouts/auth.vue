@@ -13,7 +13,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useAuthStore } from '~/stores/auth'
+import { useAuthStore } from '~/stores/auth/index'
 import UiLoadingFull from '~/components/ui/LoadingFull.vue'
 
 const authStore = useAuthStore()

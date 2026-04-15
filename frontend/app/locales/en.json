@@ -50,13 +50,13 @@
     }
   },
   "menu": {
-    "base_data": "Base Data",
-    "product_management": "Product Management",
-    "suppliers_management": "Suppliers Management",
-    "item_unit_define_management": "Unit of Measurement Management",
-    "currency_unit_management": "Currency Unit Management",
-    "vat_management": "VAT Management",
-    "purchase_request_management": "Purchase Request Management"
+    "hr": "HR",
+    "settings": "Settings",
+    "business": "Business",
+    "org_chart": "Org Chart",
+    "salary_3p": "3P Salary",
+    "hr_costs": "HR Costs",
+    "job_description": "Job Description"
   },
   "auth": {
     "login": {

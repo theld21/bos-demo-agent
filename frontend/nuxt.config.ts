@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   app: {
     head: {
-      title: 'BOS Agent',
+      title: 'BOS Demo',
       htmlAttrs: { lang: 'en', class: 'light' },
       meta: [
         { charset: 'utf-8' },

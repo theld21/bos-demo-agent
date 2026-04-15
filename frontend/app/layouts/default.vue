@@ -3,8 +3,10 @@
     <UiLoadingFull v-if="isLoading" />
     <div v-else-if="authStore.isLoggedIn" class="h-screen w-full flex flex-col bg-slate-100">
       <AppHeader />
-      <main class="flex-1 overflow-auto p-4">
-        <slot />
+      <main class="flex-1 overflow-auto bg-slate-50 pt-20">
+        <div class="max-w-screen-6xl mx-auto xs:px-3 3lg:px-6">
+          <slot />
+        </div>
         <UiLoadingOverlay />
       </main>
     </div>
@@ -13,7 +15,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useAuthStore } from '~/stores/auth'
+import { useAuthStore } from '~/stores/auth/index'
 import AppHeader from '~/components/layout/AppHeader.vue'
 import UiLoadingOverlay from '~/components/ui/LoadingOverlay.vue'
 import UiLoadingFull from '~/components/ui/LoadingFull.vue'

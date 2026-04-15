@@ -50,13 +50,13 @@
     }
   },
   "menu": {
-    "base_data": "Dữ liệu cơ sở",
-    "product_management": "Danh mục vật tư hàng hóa",
-    "suppliers_management": "Danh mục nhà cung cấp",
-    "item_unit_define_management": "Quản lý đơn vị tính",
-    "currency_unit_management": "Quản lý đơn vị tiền tệ",
-    "vat_management": "Quản lý thuế",
-    "purchase_request_management": "Quản lý yêu cầu mua hàng"
+    "hr": "Nhân sự",
+    "settings": "Cài đặt",
+    "business": "Kinh doanh",
+    "org_chart": "Sơ đồ tổ chức",
+    "salary_3p": "Cơ chế lương 3P",
+    "hr_costs": "Chi phí nhân sự",
+    "job_description": "Mô tả công việc"
   },
   "auth": {
     "login": {

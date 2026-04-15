@@ -18,13 +18,13 @@
       <!-- Form Section -->
       <div class="px-8 pb-6">
         <a-form :model="form" @finish="handleLogin" layout="vertical" class="login-form">
-          <!-- Email Field -->
+          <!-- Username Field -->
           <a-form-item 
             :label="$t('auth.login.username_label')" 
-            name="email"
+            name="username"
             :rules="[{ required: true, message: $t('auth.login.username_required') }]">
             <a-input 
-              v-model:value="form.email" 
+              v-model:value="form.username" 
               size="large"
               :placeholder="$t('auth.login.username_placeholder')"
               class="login-input"
@@ -78,17 +78,7 @@
         </div>
         
         <!-- Language Switcher -->
-        <div 
-          @click="toggleLanguage"
-          class="flex items-center gap-2 px-3 py-1.5 bg-white rounded-lg border border-gray-300 text-xs font-medium cursor-pointer hover:bg-slate-50 select-none"
-        >
-          <img 
-            :src="locale === 'vi' ? 'https://flagcdn.com/w20/vn.png' : 'https://flagcdn.com/w20/us.png'" 
-            class="w-4 h-3 object-cover rounded-[1px]" 
-            :alt="locale === 'vi' ? 'VN' : 'US'" 
-          />
-          <span>{{ locale === 'vi' ? 'Tiếng Việt' : 'English' }}</span>
-        </div>
+        <LanguageSwitcher compact />
       </div>
     </div>
   </div>
@@ -97,10 +87,8 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore } from '~/stores/auth'
-import { useI18n } from 'vue-i18n'
-
-const { locale, setLocale } = useI18n()
+import { useAuthStore } from '~/stores/auth/index'
+import LanguageSwitcher from '~/components/ui/LanguageSwitcher.vue'
 
 definePageMeta({
   layout: 'auth',
@@ -114,13 +102,9 @@ const isLoading = ref(false)
 const error = ref('')
 
 const form = ref({
-  email: '',
+  username: '',
   password: ''
 })
-
-const toggleLanguage = () => {
-  locale.value = locale.value === 'vi' ? 'en' : 'vi'
-}
 
 const handleLogin = async () => {
   error.value = ''
@@ -128,7 +112,7 @@ const handleLogin = async () => {
   
   try {
     const payload = {
-      email: form.value.email,
+      username: form.value.username,
       password: form.value.password,
       remember_me: false
     }
