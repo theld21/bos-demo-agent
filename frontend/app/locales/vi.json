@@ -1,0 +1,98 @@
+{
+  "header": {
+    "profile": "Thông tin cá nhân",
+    "change_password": "Đổi mật khẩu",
+    "logout": "Đăng xuất"
+  },
+  "common": {
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "back": "Trở về",
+    "create": "Tạo mới"
+  },
+  "pagination": {
+    "rows_per_page": "Số dòng mỗi trang",
+    "of": "trên tổng số",
+    "showing": "Hiển thị"
+  },
+  "products": {
+    "search": "Tìm kiếm sản phẩm...",
+    "import": "Nhập sản phẩm",
+    "no_products": "Không tìm thấy sản phẩm nào.",
+    "details": "Chi tiết sản phẩm",
+    "details_desc": "Cập nhật thông tin cơ bản cho sản phẩm này.",
+    "alert": {
+      "create_success": "Đã tạo sản phẩm thành công!",
+      "update_success": "Đã cập nhật sản phẩm thành công!",
+      "update_status_success": "Đã thay đổi trạng thái sản phẩm thành công!",
+      "update_status_confirm": "Bạn có chắc chắn muốn thay đổi trạng thái sản phẩm này?",
+      "update_status_cancel": "Hành động này không thể hoàn tác."
+    },
+    "tabs": {
+      "general": "Thông tin chung",
+      "unit": "Đơn vị tính",
+      "details": "Thông tin chi tiết",
+      "packing": "Quy cách đóng gói",
+      "price_history": "Lịch sử giá",
+      "additional_info": "Thông tin bổ sung"
+    },
+    "table": {
+      "managementCode": "Mã quản trị",
+      "sapCode": "Mã SAP",
+      "nameVn": "Tên sản phẩm (VN)",
+      "nameEn": "Tên sản phẩm (EN)",
+      "unit": "Đơn vị tính chính",
+      "productType": "Loại sản phẩm",
+      "productGroup": "Nhóm sản phẩm",
+      "description": "Mô tả",
+      "status": "Trạng thái hoạt động",
+      "actions": "Hành động"
+    }
+  },
+  "menu": {
+    "base_data": "Dữ liệu cơ sở",
+    "product_management": "Danh mục vật tư hàng hóa",
+    "suppliers_management": "Danh mục nhà cung cấp",
+    "item_unit_define_management": "Quản lý đơn vị tính",
+    "currency_unit_management": "Quản lý đơn vị tiền tệ",
+    "vat_management": "Quản lý thuế",
+    "purchase_request_management": "Quản lý yêu cầu mua hàng"
+  },
+  "auth": {
+    "login": {
+      "welcome_message": "Chào mừng bạn quay trở lại! Hãy đăng nhập để bắt đầu làm việc",
+      "username_label": "Tài khoản",
+      "username_placeholder": "",
+      "username_required": "Vui lòng nhập tài khoản",
+      "password_label": "Mật khẩu",
+      "password_placeholder": "",
+      "password_required": "Vui lòng nhập mật khẩu",
+      "submit": "Đăng nhập",
+      "submitting": "Đang đăng nhập..."
+    },
+    "forgot_password": {
+      "title": "Quên mật khẩu",
+      "subtitle": "Nhập email của bạn để nhận liên kết đặt lại mật khẩu.",
+      "email_label": "Địa chỉ Email",
+      "email_placeholder": "email@example.com",
+      "submit": "Gửi liên kết đặt lại",
+      "submitting": "Đang gửi...",
+      "success_title": "Kiểm tra email của bạn",
+      "success_message": "Nếu email tồn tại trong hệ thống, chúng tôi đã gửi hướng dẫn đặt lại mật khẩu.",
+      "back_to_login": "Quay lại đăng nhập"
+    },
+    "change_password": {
+      "title": "Đổi mật khẩu",
+      "subtitle": "Vui lòng nhập mật khẩu hiện tại để thay đổi mật khẩu mới.",
+      "current_password": "Mật khẩu hiện tại",
+      "new_password": "Mật khẩu mới",
+      "new_password_placeholder": "Tối thiểu 8 ký tự",
+      "confirm_password": "Xác nhận mật khẩu mới",
+      "confirm_placeholder": "Phải khớp với mật khẩu mới",
+      "submit": "Đổi mật khẩu",
+      "submitting": "Đang lưu...",
+      "success": "Đổi mật khẩu thành công. Hệ thống sẽ chuyển hướng...",
+      "error_mismatch": "Mật khẩu mới không khớp"
+    }
+  }
+}

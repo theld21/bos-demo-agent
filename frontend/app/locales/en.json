@@ -1,0 +1,98 @@
+{
+  "header": {
+    "profile": "My Profile",
+    "change_password": "Change Password",
+    "logout": "Logout"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back",
+    "create": "Create"
+  },
+  "pagination": {
+    "rows_per_page": "Rows per page",
+    "of": "of",
+    "showing": "Showing"
+  },
+  "products": {
+    "search": "Search products...",
+    "import": "Import Products",
+    "no_products": "No products found.",
+    "details": "Product Details",
+    "details_desc": "Update the essential information for this inventory item.",
+    "alert": {
+      "create_success": "Product created successfully!",
+      "update_success": "Product updated successfully!",
+      "update_status_success": "Product status changed successfully!",
+      "update_status_confirm": "Are you sure you want to change the status of this product?",
+      "update_status_cancel": "This action cannot be undone."
+    },
+    "tabs": {
+      "general": "General Info",
+      "unit": "Unit",
+      "details": "Details",
+      "packing": "Packing Spec",
+      "price_history": "Price History",
+      "additional_info": "Additional Information"
+    },
+    "table": {
+      "managementCode": "Management Code",
+      "sapCode": "SAP Code",
+      "nameVn": "Product Name (VN)",
+      "nameEn": "Product Name (EN)",
+      "unit": "Main Unit",
+      "productType": "Product Type",
+      "productGroup": "Product Group",
+      "description": "Description",
+      "status": "Activity Status",
+      "actions": "Actions"
+    }
+  },
+  "menu": {
+    "base_data": "Base Data",
+    "product_management": "Product Management",
+    "suppliers_management": "Suppliers Management",
+    "item_unit_define_management": "Unit of Measurement Management",
+    "currency_unit_management": "Currency Unit Management",
+    "vat_management": "VAT Management",
+    "purchase_request_management": "Purchase Request Management"
+  },
+  "auth": {
+    "login": {
+      "welcome_message": "Welcome back! Please sign in to start working",
+      "username_label": "Username",
+      "username_placeholder": "",
+      "username_required": "Please enter your username",
+      "password_label": "Password",
+      "password_placeholder": "",
+      "password_required": "Please enter your password",
+      "submit": "Sign in",
+      "submitting": "Signing in..."
+    },
+    "forgot_password": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a password reset link.",
+      "email_label": "Email Address",
+      "email_placeholder": "email@example.com",
+      "submit": "Send reset link",
+      "submitting": "Sending...",
+      "success_title": "Check your email",
+      "success_message": "If the email exists, we have sent password reset instructions.",
+      "back_to_login": "Back to login"
+    },
+    "change_password": {
+      "title": "Change Password",
+      "subtitle": "Please enter your current password to change your password.",
+      "current_password": "Current Password",
+      "new_password": "New Password",
+      "new_password_placeholder": "Minimum 8 characters",
+      "confirm_password": "Confirm New Password",
+      "confirm_placeholder": "Must match new password",
+      "submit": "Change Password",
+      "submitting": "Saving...",
+      "success": "Password changed successfully. Redirecting...",
+      "error_mismatch": "New passwords do not match"
+    }
+  }
+}
